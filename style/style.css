@@ -346,7 +346,7 @@ body {
         height: 150px;
     }
     .combo_img {
-        padding-top: 0;
+        padding-top: 100px;
     }
     .footer_container {
         grid-template-columns: 350px;
