@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg">
+    <title>
+        VisionCinema
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_logo">
+                <img src="/images/logo.png" atl="logotype">
+            </div>
+            <div class="header_navig">
+                <a href="#">Расписание</a>
+                <a href="#">Акции</a>
+                <a href="#">Топ 100 фильмов</a>
+                <a href="#">О нас</a>
+            </div>
+            <div class="header_auth">
+                <a href="#" id="open_pop_up">Личный кабинет</a>
+            </div>
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <h1>Личный кабинет</h1>
+                        <div class="pop_login">
+                            <p>Логин</p>
+                            <input type="text" placeholder="example@mail.ru">
+                            <p>Пароль</p>
+                            <input type="password" placeholder="example">
+                        </div>
+                        <div class="buttn_cab">
+                            <button>Вход</button>
+                        </div>
+                        <div class="pop_up_close" id="close_pop_up">&#10006</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/scripts/popUp.js"></script>
+    </header>
+    <main>
+        <div class="swiper_bunner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/images/ice.webp" alt="banner"></div>
+                    <div class="swiper-slide"><img src="/images/event.webp" alt="banner"></div>
+                    <div class="swiper-slide"><img src="/images/pop.webp" alt="banner"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="cinema_container">
+            <nav class="ticket_now">
+                <a data-f="all" class="text" href="#">Все</a>
+                <a data-f="today" class="text" href="#">Сегодня</a>
+                <a data-f="today" class="text" href="#">Скоро</a>
+            </nav>
+            <hr>
+            <div class="cinema_ticket_container">
+                <div class="cinema_card today">
+                    <img src="/images/ivan6.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Иван Царевич и Серый Волк 6</p>
+                        <p class="genre">Мультфильм, приключения, фэнтези</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы. Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card soon">
+                    <img src="/images/monke.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Обезьяна</p>
+                        <p class="genre">Ужасы</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card today">
+                    <img src="/images/pushkin.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Пророк. История Александра Пушкина</p>
+                        <p class="genre">Драма, мюзикл</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card soon">
+                    <img src="/images/kryk.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Капитан Крюк</p>
+                        <p class="genre">Комедия</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card today">
+                    <img src="/images/EV.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Екатерина Великая</p>
+                        <p class="genre">История</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card soon">
+                    <img src="/images/superGnoms.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Супергномы</p>
+                        <p class="genre">Мультфильм</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card today">
+                    <img src="/images/zloyG.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Злой город</p>
+                        <p class="genre">История</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card soon">
+                    <img src="/images/BB.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Баг Бой</p>
+                        <p class="genre">Мультфильм</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card today">
+                    <img src="/images/SP.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Северный полюс</p>
+                        <p class="genre">Приключения, драма</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card soon">
+                    <img src="/images/absolute.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Абсолютный хищник</p>
+                        <p class="genre">Ужасы</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card today">
+                    <img src="/images/KonchLeto.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Кончится лето</p>
+                        <p class="genre">Драма</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cinema_card soon">
+                    <img src="/images/KP.webp" alt="banner">
+                    <div class="cinema_text">
+                        <p class="name">Королевские приключения</p>
+                        <p class="genre">Мультфильм</p>
+                        <div class="btn_buy_cinema">
+                            <button onclick="alert('Технические работы! Извините за неудобства!')">Купить билеты</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/scripts/filter.js"></script>
+        <script src="/scripts/slider.js"></script>
+        <section class="stock_container">
+            <div class="stock_wrapper">
+                <div class="stock_info">
+                    <meta name="description" content="Пушкинская карта иеё невероятные преимущества!"/>
+                    <h1>Специально для школьников!</h1>
+                    <p>Пушкинскую карту доставай и веселье начинай!</p>
+                    <div class="btn_stock">
+                        <button onclick="alert('Технические работы! Извините за неудобства!')">Узнать больше!</button>
+                    </div>
+                </div>
+                <div class="pushkin_card">
+                    <img src="/images/Pushkin.png" alt="banner">
+                </div>
+            </div>
+        </section>
+        <section class="about_us">
+            <div class="about_us_info">
+                <h1>Молодые и перспективные дистрибьютеры билетов в кинотеатр!</h1>
+                <p>Мы работаем в сфере кино уже 2 года! Заказывайте билеты прямо сейчас и получи скидку в 10%! Если приведёшь друзей в кино и назовёшь промокод: VISION2025, то получишь ещё один билет бесплатно! Акция ограничена до 26.02.2025</p>
+                <div class="about_us_btn">
+                    <button onclick="alert('Технические работы! Извините за неудобства!')">Узнать больше о нас!</button>
+                </div>
+            </div>
+        </section>
+        <section class="combo_container">
+            <div class="combo_wrapper">
+                <div class="combo_info">
+                    <h1>ОГРОМНОЕ комбо - самое выгодное предложение в истории кино!</h1>
+                    <p>Большой попкорн и Добрый кола со скидкой в 25%</p>
+                    <div class="btn_combo">
+                        <button onclick="alert('Технические работы! Извините за неудобства!')">Давай сюда!</button>
+                    </div>
+                </div>
+                <div class="combo_img">
+                    <img src="/images/combo.webp" alt="banner">
+                </div>
+            </div>
+            <h1></h1>
+        </section>
+        <section class="news_container">
+            <div class="news_wrapper">
+                <img src="/images/stockone.jpg" width="402px" alt="banner">
+                <h1>Закажи еду и напитки заранее в нашем баре!</h1>
+                <p>25 февраля 2025, 15:28</p>
+            </div>
+            <div class="news_wrapper">
+                <img src="/images/nech.jpg" width="402px" alt="banner">
+                <h1>Премьера в VisionCinema</h1>
+                <p>20 февраля 2024, 15:00</p>
+            </div>
+            <div class="news_wrapper">
+                <img src="/images/hero.png" width="402px" alt="banner">
+                <h1>Бесплатное кино для участников боевых действий</h1>
+                <p>10 января 2023, 10:05</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer_container">
+            <div class="footer_logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <p class="footer_politic">© 2024 Сеть кинотеатров «VisionCinema» – все права защищены</p>
+        </div>
+    </footer>  
+</body>
+</html>
